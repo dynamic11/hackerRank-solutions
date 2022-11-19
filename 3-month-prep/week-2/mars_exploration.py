@@ -23,13 +23,6 @@ def marsExploration(s):
             count += 1
     return count
 
-    # Write your code here
-    for letter, index in list(s):
-        if(letter != "S" and letter != "O"):
-            count += 1
-
-    return count
-
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
